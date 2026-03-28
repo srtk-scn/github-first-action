@@ -1,9 +1,10 @@
 name: Second inline echo workflow
 on: workflow_dispatch
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Echo both greetings and Bye
-      run: |
-          echo "Hi Sarthak"
-          echo "Bye Sarthak!!!"
+  firstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo both greetings and Bye
+        run: |
+            echo "Hi Sarthak"
+            echo "Bye Sarthak!!!"
