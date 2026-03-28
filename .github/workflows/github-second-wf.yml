@@ -1,9 +1,9 @@
 name: Second inline echo workflow
 on: workflow_dispatch
 jobs:
-  runs-on: ubuntu-lastest
+  runs-on: ubuntu-latest
   steps:
-    - name: Echo botg greetings and Bye
+    - name: Echo both greetings and Bye
       run: |
           echo "Hi Sarthak"
           echo "Bye Sarthak!!!"
